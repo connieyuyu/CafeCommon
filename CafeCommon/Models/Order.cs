@@ -13,6 +13,9 @@ namespace CafeCommon.Models
 
         [JsonProperty("createdDate")]
         public DateTime CreatedDate { get; set; }
+        
+        [JsonProperty("partitionKey")]
+        public string PartitionKey => CreatedDate.ToString("yyyyMMdd");
 
         [JsonProperty("drinks")]
         public IEnumerable<Drink> Drinks { get; set; } = new List<Drink>();
