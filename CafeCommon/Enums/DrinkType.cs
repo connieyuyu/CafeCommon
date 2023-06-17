@@ -2,7 +2,7 @@
 
 public enum DrinkType
 {
-    Cappucino,
+    Cappuccino,
     FlatWhite,
     Espresso,
     Latte,
