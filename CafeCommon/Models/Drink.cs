@@ -88,6 +88,4 @@ namespace CafeCommon.Models
             }
         }
     }
-
-
 }
