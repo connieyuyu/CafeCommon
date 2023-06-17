@@ -11,9 +11,8 @@ namespace CafeCommon.Models
 {
     public class Drink
     {
-        public Drink(DrinkSize size, DrinkType type)
+        public Drink(DrinkType type)
         {
-            Size = size;
             Type = type;
             Name = GetName();
             ImageUrl = GetImageUrl();
