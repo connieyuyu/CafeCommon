@@ -24,8 +24,10 @@ namespace CafeCommon.Models
         [JsonProperty("type")]
         public DrinkType Type { get; set; }
 
+        [JsonIgnore]
         public string Name { get; }
 
+        [JsonIgnore]
         public string ImageUrl { get; }
 
         private string GetName()
